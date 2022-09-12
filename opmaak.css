@@ -18,7 +18,7 @@ ul {
     text-decoration: none;
   }
   
-  /* Change the link color to #111 (black) on hover */
+  /* Kleur van het menu */
   li a:hover {
     background-color: rgb(70, 214, 70);
     color: black;
