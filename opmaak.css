@@ -25,13 +25,13 @@
   }
 */
 body {
-  font-family: Arial, Helvetica, sans-serif;
-}
+  font-family: sans-serif;
+} /*Lettertype van het dropdownmenu*/
 
 .navbar {
   overflow: hidden;
-  background-color: #333;
-}
+  background-color: rgb(0, 0, 0);
+} /*Kleur van menubalk*/
 
 .navbar a {
   float: left;
@@ -40,12 +40,12 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
+} /*Positie van de blokken in de menubalk*/
 
 .dropdown {
   float: left;
   overflow: hidden;
-}
+} /*Positie van de blokken in het dropdownmenu*/
 
 .dropdown .dropbtn {
   font-size: 16px;  
@@ -59,8 +59,8 @@ body {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
+  background-color: green;
+} /*Kleur bij hoveren menubalk*/
 
 .dropdown-content {
   display: none;
@@ -78,11 +78,11 @@ body {
   text-decoration: none;
   display: block;
   text-align: left;
-}
+} /*Opmaak dropdownblokken*/
 
 .dropdown-content a:hover {
-  background-color: #ddd;
-}
+  background-color: rgb(182, 182, 182);
+} /*Kleur bij hoveren dropdownmenu*/
 
 .dropdown:hover .dropdown-content {
   display: block;
