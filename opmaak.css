@@ -55,7 +55,8 @@ body {
 } /*Opmaak tekst dropdownmenu*/
 
 .dropdown-content a:hover {
-  background-color: rgb(100, 100, 100);
+  color:black;
+  background-color: rgb(160, 160, 160);
 } /*Kleur bij hoveren dropdownmenu*/
 
 .dropdown:hover .dropdown-content {
@@ -64,14 +65,19 @@ body {
 
 /*Opmaak van de stijlen*/
 h1 {
+  font-family: monospace;
   font-size: 40px;
+  padding: 0px 45px 15px;
 }
 
 h2 {
+  font-family: monospace;
   font-size: 18px;
-  line-height: 0.8;
+  padding: 0px 45px;
 }
 
 p {
+  font-family: monospace;
   font-size: 18px;
+  padding: 0px 45px 15px;
 }
